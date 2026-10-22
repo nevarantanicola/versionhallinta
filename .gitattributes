@@ -18,23 +18,24 @@ public class App {
      int numero2 = Integer.parseInt(input2);
 #  System.out.println(" Tulos on " + (numero1 + numero2));
 #  if (numero1 + numero2 > 10) {
-       System.out.println("Tulos on yli 10." + ("Tulos on ") + (numero1 + numero2) + ("."));
-      } 
-     else
-       System.out.println("Tulos on " + (numero1 + numero2) + ("."));
-     }
+    #    System.out.println("Tulos on yli 10." + ("Tulos on ") + (numero1 + numero2) + ("."));
+    #   } 
+    #  else
+    #    System.out.println("Tulos on " + (numero1 + numero2) + ("."));
+    #  }
 
 
-#     //    System.out.println("Haluatko laskea yhteen, vai vähentää? Kirjoita plus tai miinus.");
+       System.out.println("Haluatko laskea yhteen, vai vähentää? Kirjoita plus tai miinus.");
     
-#   //  String input3;
-#   //    input3 = in.nextLine();
-#   //    if (input3.equals("plus")) 
-#   //    {
-#   //     System.out.println("Tulos on " + (numero1 + numero2) + ".");
-#   //    }
-#   //    else if (input3.equals("miinus")) 
-#   //   { 
-
+    String input3;
+      input3 = in.nextLine();
+      if (input3.equals("plus")) 
+      {
+       System.out.println("Tulos on " + (numero1 + numero2) + ".");
+      }
+      else if (input3.equals("miinus")) 
+     { 
+System.out.println("Tulos on " + (numero1 - numero2) + ".");
+     } 
     }
 }
