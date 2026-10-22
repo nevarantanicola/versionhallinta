@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+package src;
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+    
+
+      Scanner in = new Scanner(System.in);
+        
+       String input;
+      System.out.println("Kirjoita jokin numero.");
+     input = in.nextLine();
+      String input2;
+     System.out.println("Anna toinen numero vielä.");
+     input2 = in.nextLine();
+    
+     int numero1 = Integer.parseInt(input);
+     int numero2 = Integer.parseInt(input2);
+ System.out.println(" Tulos on " + (numero1 + numero2));
+    }
+}
